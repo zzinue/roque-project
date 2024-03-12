@@ -31,6 +31,24 @@ body{
     text-align: center;
     color: var(--subtitle-color);   
 }
+ h6{
+    font-size: 48px;
+}
+p{
+    font-size: 20px;
+}
+
+@media  (max-width:567px){
+.subtitulos{
+font-size: 32px;
+}
+   h6{
+font-size: 40px
+   }
+   p{
+    font-size: 16px;
+   }
+}
 .debajo-subtitulo{
     color: var(--subtitle-color);
 text-align: center;
@@ -113,10 +131,10 @@ margin-bottom: 32px;
     background: var(--main-color);
 }
 
-.bloque-padding{
+/* .bloque-padding{
 padding: 80px 120px 80px  120px;
 
-}
+} */
 .anuncios-carousel{
     width:1391px ;
     display: flex;
@@ -159,14 +177,14 @@ gap: 16px;
     padding: 10px 10px 0px 10px;
     gap: 10px;
 }
-.presencia{
+/* .presencia{
     
     margin-top: 32px;
     margin-bottom: 32px;
     border-radius: 24px;
     gap: 40px;
     background-color: #F8F8F8;
-    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.25);
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.25); */
 }
 
 
