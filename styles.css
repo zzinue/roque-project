@@ -37,8 +37,27 @@ body{
 p{
     font-size: 20px;
 }
+.imagen-principal{
+    width: 592px;
+    height: 503px;
+}
 
 @media  (max-width:567px){
+h2{
+font-size: 48px;
+}
+h3{
+font-size: 24px;
+}
+.imagen-principal{
+    width: 422px;
+    height: 448px;
+}
+.anuncios-carousel{
+    width: 155.1px;
+    height: 38.77px;
+}
+
 .subtitulos{
 font-size: 32px;
 }
@@ -56,9 +75,9 @@ font-size: 32px;
 font-weight: 300;
 line-height: 36px; /* 112.5% */
 }
-.cerraduras-container{
+/* .cerraduras-container{
     gap: 24px;
-}
+} */
 .bas-tita-general{
 border-radius: 16px 16px 0px 0px; 
 }
@@ -135,24 +154,12 @@ margin-bottom: 32px;
 padding: 80px 120px 80px  120px;
 
 } */
-.anuncios-carousel{
-    width:1391px ;
-    display: flex;
-    height: 72px;
-    justify-content: center;
-    align-items: center;
-    gap: 24px;
-}
-.controla-accesos{
-    width: 1392px;
-    display: flex;
+/* s */
+/* .controla-accesos{
     padding: 80px 120px;
-    flex-direction: column;
-    align-items: center;
     gap: 40px;
-    align-self: stretch;
     border-radius: 24px;
-background: var(--Lightest-Grey, #F2F4F3);
+background: var(--Lightest-Grey, #F2F4F3); */
 
 /* Dropshadow */
 box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.25);
@@ -163,20 +170,20 @@ justify-content: space-between;
 align-items: flex-start;
 align-self: stretch;
 }
-.eleentos-individuales{
+/* .eleentos-individuales{
     display: flex;
 width: 249px;
 flex-direction: column;
 align-items: center;
 gap: 16px;
-}
-.main-imgs{
+} */
+/* .main-imgs{
     width: 592px;
     height: 503px;
     border-radius: 16px;
     padding: 10px 10px 0px 10px;
     gap: 10px;
-}
+} */
 /* .presencia{
     
     margin-top: 32px;
@@ -213,11 +220,16 @@ gap: 16px;
     align-items: center;
     gap: 24px;
 }
-.rentas{
+
+h2{
     font-size: 72px;
-    font-style: normal;
     line-height: 72px;
     font-weight: 300;
+}
+h3{
+font-size: 32px;
+font-weight: 300;
+line-height: 32px; 
 }
 
 .plan-ideal{
@@ -411,7 +423,7 @@ margin-right: 30px;
 .container-formulario{
     display: flex;
     align-items: flex-start;
-    width: 1392px;
+
     padding: 80px 120px ;   
     margin: 32px 0px 32px 0px;
 
