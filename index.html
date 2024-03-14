@@ -11,8 +11,9 @@
     <title>roque</title>
   </head>
   <body>
+    <!-- navbar -->
     <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-md-top">
-      <div class="container-fluid">
+      <div class="container">
         <div>
           <a class="navbar-brand" href="#">
             <img src="./assets/Union.png" alt="" />
@@ -20,17 +21,20 @@
           <button
             class="navbar-toggler"
             type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarNavAltMarkup"
-            aria-controls="navbarNavAltMarkup"
+            data-toggle="collapse"
+            data-target="#navbarTogglerDemo03"
+            aria-controls="navbarTogglerDemo03"
             aria-expanded="false"
             aria-label="Toggle navigation"
           >
-            <span class="navbar-toggler-icon"></span>
+            <span class="navbar-toggler-icon"> </span>
           </button>
         </div>
 
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div
+          class="collapse navbar-collapse justify-content-center"
+          id="navbarTogglerDemo03"
+        >
           <div class="navbar-nav">
             <a class="nav-link active" aria-current="page" href="#"
               >experiencia</a
@@ -41,18 +45,19 @@
         </div>
         <div>
           <div class="navbar-nav">
-            <a class="nav-link disabled" aria-disabled="true">eng</a>
+            <a class="nav-link" aria-disabled="true">ENG</a>
             <button class="green-button">
-              <a class="nav-link disabled" aria-disabled="true">hablemos</a>
+              <a class="nav-link" aria-disabled="true">hablemos</a>
             </button>
           </div>
         </div>
       </div>
     </nav>
+
     <!-- renta de cerraduras seccion -->
     <div class="container">
       <div class="row">
-        <div class="col-sm-6 col-12">
+        <div class="col-lg-6 col-12">
           <h2>Renta de cerraduras por solo $6.99 usd al mes</h2>
           <h3>Simplifica y automatiza la experiencia de alojamiento.</h3>
           <button class="main-button">DESCUBRE LA SOLUCIÓN</button>
@@ -79,39 +84,41 @@
       </div>
     </div>
 
-    <div class="container">
-      <div aria-rowcount="row">
-        <div class="d-flex flex-column mt-3 mb-3">
-          <h3 class="subtitulos">
-            Controla todos tus accesos de manera eficiente y segura
-          </h3>
-          <div class="d-flex">
-            <div class="d-flex col-sm-12 col-6">
-              <div>
-                <h6 class="subtitulos-2">Eficiencia</h6>
-                <p class="parrafos">Evita la pérdida de llaves físicas.</p>
-              </div>
-              <div>
-                <h6 class="subtitulos-2">Adaptabilidad</h6>
-                <p class="parrafos">
-                  Compatible con diversos modelos de puertas.
-                </p>
-              </div>
-              <div>
-                <h6 class="subtitulos-2">Gestión</h6>
-                <p class="parrafos">Genera códigos temporales.</p>
-              </div>
-              <div>
-                <h6 class="subtitulos-2">Garantía</h6>
-                <p class="parrafos">
-                  Garantía de por vida en la duración del contrato.
-                </p>
+    <section>
+      <div class="container">
+        <div aria-rowcount="row">
+          <div class="d-flex flex-column mt-3 mb-3">
+            <h3 class="subtitulos">
+              Controla todos tus accesos de manera eficiente y segura
+            </h3>
+            <div class="d-flex">
+              <div class="d-flex">
+                <div class="col-lg-3 col-md-6">
+                  <h6 class="subtitulos-2">Eficiencia</h6>
+                  <p class="parrafos">Evita la pérdida de llaves físicas.</p>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                  <h6 class="subtitulos-2">Adaptabilidad</h6>
+                  <p class="parrafos">
+                    Compatible con diversos modelos de puertas.
+                  </p>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                  <h6 class="subtitulos-2">Gestión</h6>
+                  <p class="parrafos">Genera códigos temporales.</p>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                  <h6 class="subtitulos-2">Garantía</h6>
+                  <p class="parrafos">
+                    Garantía de por vida en la duración del contrato.
+                  </p>
+                </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
+    </section>
 
     <!-- fin del container controla todos tus accesos -->
     <div class="container">
@@ -189,9 +196,9 @@
       <div class="">
         <div class="row">
           <div class="col-md-6 col-12">
-            <img src="./assets/delgadocontrol.png" alt="" />
+            <img class="roque-tita" src="./assets/delgadocontrol.png" alt="" />
             <div class="bas-tita">
-              <img bas-tita-imagen src="./assets/roquebas.png" alt="" />
+              <img src="./assets/roquebas.png" alt="" />
               <ul class="text-white">
                 <li>Resistente al clima, apta para cualquier entorno.</li>
                 <li>Diseñada para la máxima resistencia y uso rudo.</li>
@@ -200,7 +207,7 @@
             </div>
           </div>
           <div class="col-md-6 col-12">
-            <img src="./assets/gruesocontrol.png" alt="" />
+            <img class="roque-tita" src="./assets/gruesocontrol.png" alt="" />
             <div class="bas-tita">
               <img bas-tita-imagen src="./assets/roquetita.png" alt="" />
               <ul class="text-white">
@@ -321,13 +328,17 @@
             <button class="green-button">hablemos</button>
           </div>
           <div class="col-md-6 col-12">
-            <img class="main-imgs" src="./assets/frame222.jpg" alt="" />
+            <img class="img-cerradura" src="./assets/frame222.jpg" alt="" />
           </div>
         </div>
 
         <div class="row">
           <div class="col-md-6 col-12">
-            <img class="main-imgs" src="./assets/Framecontroles2.jpg" alt="" />
+            <img
+              class="img-cerradura"
+              src="./assets/Framecontroles2.jpg"
+              alt=""
+            />
           </div>
           <div class="col-md-6 col-12">
             <p>Fortalece la seguridad de tus propiedades</p>
