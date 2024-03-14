@@ -48,33 +48,26 @@ body{
   
 }
 
-.subtitulos{
 
-    font-size: 48px;
-    font-weight: 300;
-    line-height: 50px;
-    font-style: normal;
-    text-align: center;
-    color: var(--subtitle-color);   
-
-}
  h6{
     font-size: 48px;
 }
 p{
     font-size: 20px;
 }
-.imagen-principal{
-    width: 592px;
-    height: 503px;
-}
+
 
 @media  (max-width:567px){
 h2{
 font-size: 48px;
 }
 h3{
-font-size: 24px;
+    font-size: 48px;
+    font-weight: 300;
+    line-height: 50px;
+    font-style: normal;
+    text-align: center;
+    color: var(--subtitle-color);   
 }
 .imagen-principal{
     width: 422px;
