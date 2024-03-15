@@ -61,8 +61,20 @@ font-style: normal;
 font-weight: 300;
 line-height: 32px;
 text-align: center;
-
 }
+h5{
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 52px;
+}
+h6{
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 20px;   
+}
+
 p{
     font-size: 20px;
 font-style: normal;
@@ -96,6 +108,12 @@ a, u {
     border-radius: 24px;
     box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.25);
 }
+.sombreado-secundario{
+    border-radius: 24px;
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.25);
+}
+
+
 .margin-arriba-abajo{
     margin-top: 32px;
     margin-bottom: 32px;
@@ -136,13 +154,8 @@ line-height: 20px;
         padding: 0;
         gap: 0;
     }
-    .subtitulo-conectividad{
-        font-size: 24px;
 
-    }
-    h6{
-        font-size: 48px;
-    }
+
     p{
         font-size: 20px;
     }
@@ -172,9 +185,7 @@ h3{
 .subtitulos{
 font-size: 32px;
 }
-   h6{
-font-size: 40px
-   }
+
    p{
     font-size: 16px;
    }
